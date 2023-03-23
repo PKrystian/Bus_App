@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="warehouse" id="6B45007C-1123-1DF6-E68C-4D4BF85AB010" version="3.5">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 11:56:28 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6B45007C-1123-1DF6-E68C-4D4BF85AB010</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="6F401AAA-0ECC-7207-77DD-5B98742D76A7">
+<designStoragePath>E:\warehouse</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7425D84E-1456-8189-CA2B-CF9F410EC33A">
+<designStoragePath>E:\warehouse</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

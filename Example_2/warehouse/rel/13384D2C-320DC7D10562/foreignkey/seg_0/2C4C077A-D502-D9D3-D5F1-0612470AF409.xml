@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2C4C077A-D502-D9D3-D5F1-0612470AF409" containerWithKeyObject="C5ED708F-F74B-EC87-8776-4C658EB972C5" localFKIndex="1AEF3B7E-6C83-4183-B5E9-168D78E3DE95" name="fk_supp_deli">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>E22D1B96-F8F6-B02C-A50C-C5EDE09E80B5</importedID>
+<referredTableLongName>Suppliers</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>510FA498-2DFC-4AE8-E61E-905019A66184</referredTableID>
+<keyObject>8D76A4DF-7BC8-1F05-0CB5-F2167C4816ED</keyObject>
+<referredKeyID>8D76A4DF-7BC8-1F05-0CB5-F2167C4816ED</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>supplier_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="510FA498-2DFC-4AE8-E61E-905019A66184" name="Suppliers">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>BE78D004-ABCF-7189-3069-150659D8A17E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="supplier_id" id="3BAF98CD-A474-FDD9-BA84-F7F9C5FE68F6">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>7FBE3EE8-4AA5-6EDC-FA16-67F73E109346</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1F795A24-4330-43C2-A65B-E5E117894645</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="supplier_name" id="DC53D871-D6C4-DD68-8042-FB30ED7D9B95">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>7FC49FCF-66A2-8D77-5D4D-491F242EC18B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EA42A686-0C9D-591F-627D-5F7057B684C0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contact_info" id="6ECEA198-887C-BF23-E55E-C48AB385A061">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>AE08E57B-E853-875F-9480-3B50A4A19213</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EA42A686-0C9D-591F-627D-5F7057B684C0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D76A4DF-7BC8-1F05-0CB5-F2167C4816ED" name="pk_supp">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>DDEFB914-2C65-12FA-5A86-905F8D2548AF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BAF98CD-A474-FDD9-BA84-F7F9C5FE68F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

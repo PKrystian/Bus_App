@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="512E9609-8E8B-FAF1-05E5-E60E06EE034D" name="Deliveries">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:24:01 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<engineerTo>
+<item key="13384D2C-11C3-F3DC-6FEA-320DC7D10562" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Deliveries</preferredAbbreviation>
+<shortName>DE</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="delivery_id" id="FF58ABD3-FB85-AD72-7007-AB0208A35543">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:25:37 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<engineerTo>
+<item key="13384D2C-11C3-F3DC-6FEA-320DC7D10562" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="delivery_date" id="67E6CEF9-4255-46D5-EC0C-3849151158F0">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:26:07 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<engineerTo>
+<item key="13384D2C-11C3-F3DC-6FEA-320DC7D10562" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="delivery_quantity" id="8744363E-E9CE-7C5E-F61B-793DDA71DE1C">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:27:28 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<engineerTo>
+<item key="13384D2C-11C3-F3DC-6FEA-320DC7D10562" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="supplier_id" id="C4BE8E79-8E26-BEF5-03B1-EB82EB67A6D0">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:35:57 UTC</createdTime>
+<generatorID>8D7688D6-67E5-2039-C20C-3EA59B9F7A03</generatorID>
+<ownerDesignName>warehouse</ownerDesignName>
+<engineerTo>
+<item key="13384D2C-11C3-F3DC-6FEA-320DC7D10562" value="true"/>
+</engineerTo>
+<referedAttribute>9730C29D-2C6C-E649-38DF-72EC78B7FFDA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="component_id" id="39F5F894-AE60-7B25-435B-27C8AB626DB0">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:36:04 UTC</createdTime>
+<generatorID>36A7135C-C45A-E7FB-872B-502EEB38281A</generatorID>
+<ownerDesignName>warehouse</ownerDesignName>
+<engineerTo>
+<item key="13384D2C-11C3-F3DC-6FEA-320DC7D10562" value="true"/>
+</engineerTo>
+<referedAttribute>4AC93274-F78A-CCE0-AA94-614833237BB7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D72DE2C-9945-24FB-63D1-E9C7EAD17905" name="Deliveries PK">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:26:01 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<engineerTo>
+<item key="13384D2C-11C3-F3DC-6FEA-320DC7D10562" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FF58ABD3-FB85-AD72-7007-AB0208A35543</attributeRef>
+<attributeRef>C4BE8E79-8E26-BEF5-03B1-EB82EB67A6D0</attributeRef>
+<attributeRef>39F5F894-AE60-7B25-435B-27C8AB626DB0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

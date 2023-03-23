@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B8BD566-E1F4-23AD-722E-242B8C71303C" name="Issues">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>B140A644-3263-8176-3EB1-C145B565EBE2</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="issue_id" id="0D4744BE-9965-3237-27E5-1311CFFF60C8">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>EBD1BDE5-A73B-9EFA-C028-A7077D15D77B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1F795A24-4330-43C2-A65B-E5E117894645</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="issue_date" id="D1A2E582-4ECD-FC28-AA47-D80FD7C514DA">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>F36EE4BC-FA77-BB97-9756-5BAE0553F12A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>41D0EAB4-AF70-EF4E-F521-0E5353DCC204</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="component_id" id="1A3ABAFF-61AB-4FE1-1773-9E6AB2A04340">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>3F46C394-7A43-6185-79EE-28525843D22F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1F795A24-4330-43C2-A65B-E5E117894645</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15669004-4CC6-88B0-6F69-C809ED09C58C" referredColumn="88AB44DF-46A4-B7D8-B847-06BE2F02EAF3"/>
+</associations>
+</Column>
+<Column name="issue_quantity" id="50F48686-8F7F-B5C5-5179-8C84AC42FBEA">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>2ED080BA-E82D-4139-78BF-B59F0FE4D65F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>60EB63A6-047F-3EF2-1186-C2AFCFEB59AF</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 21c" definition="issue_quantity &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BD14CC1-AE42-061A-27DA-60A040BF4BA5" name="Issues_PK">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>F0CAC61F-1CAF-09CF-C2BF-308972A79E96</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D4744BE-9965-3237-27E5-1311CFFF60C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D08E8349-E5F1-26BB-F0D3-9F8AE965BC0F" name="fk_comp_iss">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A3ABAFF-61AB-4FE1-1773-9E6AB2A04340"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D854363-7280-F1D5-855C-F0696889719B" name="Components">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 12:06:41 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<engineerTo>
+<item key="13384D2C-11C3-F3DC-6FEA-320DC7D10562" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Components</preferredAbbreviation>
+<shortName>CO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="component_id" id="4AC93274-F78A-CCE0-AA94-614833237BB7">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 12:07:34 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<engineerTo>
+<item key="13384D2C-11C3-F3DC-6FEA-320DC7D10562" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="component_name" id="626C9EFF-F96F-C7C8-808B-8DD368DF045E">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 12:08:17 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<engineerTo>
+<item key="13384D2C-11C3-F3DC-6FEA-320DC7D10562" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F3DDB58-1512-F2B1-EF70-942D6A7A9BA3" name="Component PK">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 12:08:04 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<engineerTo>
+<item key="13384D2C-11C3-F3DC-6FEA-320DC7D10562" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4AC93274-F78A-CCE0-AA94-614833237BB7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

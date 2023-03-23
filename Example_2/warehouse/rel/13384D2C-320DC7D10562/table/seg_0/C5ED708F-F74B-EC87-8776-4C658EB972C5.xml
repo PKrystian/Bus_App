@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5ED708F-F74B-EC87-8776-4C658EB972C5" name="Deliveries">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>0B8FFB9E-EF59-0D4A-5894-DB8AD12B7FEC</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="delivery_id" id="D00B01B4-50A1-EB2C-0326-3A557F1E6D70">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>62845646-3A83-3D55-1011-BA0586CF2F40</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1F795A24-4330-43C2-A65B-E5E117894645</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="delivery_date" id="436552BF-37AC-7DB6-537B-E539A4708FAB">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>BB81CE70-1B6F-C82C-51F2-3E10F1525A0E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>41D0EAB4-AF70-EF4E-F521-0E5353DCC204</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="supplier_id" id="C9C9518A-A6CA-91E4-ACC0-2EB0F6DDC385">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>134C85D0-B420-19A7-D743-7A2087736071</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1F795A24-4330-43C2-A65B-E5E117894645</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C4C077A-D502-D9D3-D5F1-0612470AF409" referredColumn="3BAF98CD-A474-FDD9-BA84-F7F9C5FE68F6"/>
+</associations>
+</Column>
+<Column name="delivery_quantity" id="C2509CF1-AE4C-339E-7E48-4487FF6DD204">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>5C21550A-0A45-534A-303B-FA17FA38E520</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>60EB63A6-047F-3EF2-1186-C2AFCFEB59AF</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 21c" definition="delivery_quantity &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="component_id" id="3AE65A00-DA12-FA36-9891-436AE74A4767">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>5B077913-6D02-6958-D976-AB7DD70827E7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1F795A24-4330-43C2-A65B-E5E117894645</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0743B748-F54A-1780-C386-2166099CA555" referredColumn="88AB44DF-46A4-B7D8-B847-06BE2F02EAF3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9FA546E-C343-CFEA-CF5E-2B603136F97A" name="pk_deli">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>FFCD3231-65D6-EB4B-B090-70128D455D03</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D00B01B4-50A1-EB2C-0326-3A557F1E6D70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9460CC0C-0FD6-584E-2681-0CC9EB33ADC1" name="fk_comp">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AE65A00-DA12-FA36-9891-436AE74A4767"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AEF3B7E-6C83-4183-B5E9-168D78E3DE95" name="fk_supp_deli">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9C9518A-A6CA-91E4-ACC0-2EB0F6DDC385"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

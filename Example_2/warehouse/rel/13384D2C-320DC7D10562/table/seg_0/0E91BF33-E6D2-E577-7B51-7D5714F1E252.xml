@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E91BF33-E6D2-E577-7B51-7D5714F1E252" name="Components">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>6DE45BDC-ADC7-C8C2-8DA6-B7C101A87D1C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="component_id" id="88AB44DF-46A4-B7D8-B847-06BE2F02EAF3">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>A89D77DC-F2B9-388F-60AE-FE07E1A3E913</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1F795A24-4330-43C2-A65B-E5E117894645</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="component_name" id="95BC9474-3C0D-950E-23BA-B82A57CBDFFF">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>49E41A24-4DB2-FCD1-9B9A-E36ED917C820</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EA42A686-0C9D-591F-627D-5F7057B684C0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="219E1582-B303-3544-606A-457D3BDDBDFC" name="pk_comp">
+<sourceDDLFile>warehouse.sql</sourceDDLFile>
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:49:25 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<importedID>4386BD75-1C45-1CD8-FD8F-6E13127AF49E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88AB44DF-46A4-B7D8-B847-06BE2F02EAF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

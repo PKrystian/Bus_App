@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="13384D2C-11C3-F3DC-6FEA-320DC7D10562" mainViewID="0DAAFF80-1B69-3153-AF68-E9931368EDD3">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 11:56:40 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>warehouse.sql</fileName>
+<pathName>C:\Users\kryst\Desktop</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

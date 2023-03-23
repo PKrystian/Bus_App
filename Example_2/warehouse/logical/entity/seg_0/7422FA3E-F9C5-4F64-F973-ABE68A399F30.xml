@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7422FA3E-F9C5-4F64-F973-ABE68A399F30" name="Issues">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:24:37 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<engineerTo>
+<item key="13384D2C-11C3-F3DC-6FEA-320DC7D10562" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Issues</preferredAbbreviation>
+<shortName>IS</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="issue_id" id="D605DEB0-2FA9-7C35-2F1E-C65B69008224">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:32:31 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<engineerTo>
+<item key="13384D2C-11C3-F3DC-6FEA-320DC7D10562" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="issue_date" id="4E8DE1BE-8B3C-82D6-8D62-EF29F53E18AB">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:32:50 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<engineerTo>
+<item key="13384D2C-11C3-F3DC-6FEA-320DC7D10562" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="issue_quantity" id="C3E1BB27-7389-CE23-3354-3505E1CBC18C">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:33:10 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<engineerTo>
+<item key="13384D2C-11C3-F3DC-6FEA-320DC7D10562" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="component_id" id="BE2BDA24-2A79-5461-2CE3-A4F5153152AB">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:36:09 UTC</createdTime>
+<generatorID>CC05A333-1DD7-4F3D-A84F-B56B93582D1F</generatorID>
+<ownerDesignName>warehouse</ownerDesignName>
+<engineerTo>
+<item key="13384D2C-11C3-F3DC-6FEA-320DC7D10562" value="true"/>
+</engineerTo>
+<referedAttribute>4AC93274-F78A-CCE0-AA94-614833237BB7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F872C22-B951-1857-4915-1C04503CE556" name="Issues PK">
+<createdBy>kryst</createdBy>
+<createdTime>2023-03-23 13:32:48 UTC</createdTime>
+<ownerDesignName>warehouse</ownerDesignName>
+<engineerTo>
+<item key="13384D2C-11C3-F3DC-6FEA-320DC7D10562" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D605DEB0-2FA9-7C35-2F1E-C65B69008224</attributeRef>
+<attributeRef>BE2BDA24-2A79-5461-2CE3-A4F5153152AB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
