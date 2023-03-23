@@ -1,4 +1,4 @@
-# Genetic Cars
+# Example 1
 
 ## About <a name = "about"></a>
 
