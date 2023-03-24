@@ -10,6 +10,8 @@ The application written in C# (win forms) serves as a simple form with data edit
 
 `Update (editRecord)` - to edit the data, enter the appropriate ID
 
+`Delete (deleteRecord)` - deletes record of given ID
+
 `Search (getRecord)` - enter the ID you are looking for
 
 `Show All (listRecord)` - shows all data from table
