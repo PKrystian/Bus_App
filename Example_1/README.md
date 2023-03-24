@@ -2,7 +2,7 @@
 
 ## About <a name = "about"></a>
 
-The application written in C# (win forms) and SQL Server serves as a simple form with data editing.
+The application written in C# (win forms) and SQL Server, serves as a simple form with data editing.
 
 ## Functions
 
